@@ -1,0 +1,78 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hotel_management.MainActivity" >
+<Button 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnnext"
+    android:text="next"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    />
+
+<TextView
+    android:id="@+id/name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/imgId"
+    android:layout_marginLeft="13dp"
+    android:layout_marginStart="13dp"
+    android:layout_marginTop="29dp"
+    android:text="Hotel Montana"
+    android:textColor="#000000"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textStyle="bold"
+    />
+
+
+<TextView
+    android:id="@+id/price"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/name"
+    android:layout_alignStart="@+id/name"
+    android:layout_below="@+id/name"
+    android:layout_marginTop="49dp"
+    android:text="It is a hotel with very much facilities."
+    android:textColor="#000000"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    />
+
+
+<TextView
+    android:id="@+id/desc"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/price"
+    android:layout_alignStart="@+id/price"
+    android:layout_below="@+id/price"
+    android:layout_marginTop="20dp"
+    android:text="It is a hotel.It has wifi and all other facilities. Breakfast, lunch, Dinner and if you want to know more click below..."
+    android:textColor="#000000"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    />
+
+<ImageView
+    android:id="@+id/imgId"
+    android:layout_width="330dp"
+    android:layout_height="150dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+     android:layout_marginTop="9dp"
+    android:scaleType="fitCenter"
+    android:src="@drawable/montana" />
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:text="Book Now" />
+
+</RelativeLayout>
